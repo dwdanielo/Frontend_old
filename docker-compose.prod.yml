@@ -1,0 +1,6 @@
+version: "2.4"
+services:
+  web:
+    image: nginx
+    ports:
+      - "8888:80"
